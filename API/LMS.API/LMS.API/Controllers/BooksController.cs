@@ -51,7 +51,7 @@ namespace LMS.API.Controllers
         }
 
         [HttpPost("AddBook")]
-        public IActionResult AddBook([FromBody] Book book)
+        public IActionResult AddBook(Book book)
         {
             try
             {
@@ -64,7 +64,7 @@ namespace LMS.API.Controllers
             }
         }
         [HttpPost("UpdateBook")]
-        public IActionResult UpdateBook([FromBody] Book book)
+        public IActionResult UpdateBook(Book book)
         {
             try
             {

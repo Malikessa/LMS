@@ -54,7 +54,7 @@ namespace LMS.API.Controllers
         }
 
         [HttpPost("AddMember")]
-        public IActionResult AddMember([FromBody] Member member)
+        public IActionResult AddMember(Member member)
         {
             try
             {
@@ -67,7 +67,7 @@ namespace LMS.API.Controllers
             }
         }
         [HttpPost("UpdateMember")]
-        public IActionResult UpdateMember([FromBody] Member member)
+        public IActionResult UpdateMember(Member member)
         {
             try
             {
